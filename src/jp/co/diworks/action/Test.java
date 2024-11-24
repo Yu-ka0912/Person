@@ -2,6 +2,7 @@ package jp.co.diworks.action;
 
 public class Test {
 	public static void main(String[]args){
+		//山田太郎２０歳
 		Person taro=new Person();
 		taro.name="山田太郎";
 		taro.age=20;
@@ -25,7 +26,7 @@ public class Test {
 		System.out.println(hanako.name);
 		System.out.println(hanako.age);
 		
-		//自分な名前、年齢
+		//自分の名前、年齢
 		Person yuka=new Person();
 		yuka.name="青山友香";
 		yuka.age=24;
@@ -49,5 +50,31 @@ public class Test {
 		taro.talk();
 		taro.walk();
 		taro.run();
+		
+		//演習７、８
+		Robot aibo=new Robot();
+		aibo.name="aibo";
+		
+		System.out.println(aibo.name);
+		aibo.talk();
+		aibo.walk();
+		aibo.run();
+		
+		
+		Robot asimo=new Robot();
+		asimo.name="asimo";
+		
+		System.out.println(asimo.name);
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+		
+		Robot pepper=new Robot();
+		pepper.name="pepper";
+		
+		System.out.println(pepper.name);
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
 	}
 }
